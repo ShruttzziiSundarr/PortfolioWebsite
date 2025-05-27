@@ -1,0 +1,266 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Default theme - Purple & Pink */
+  .theme-default {
+    --background: 240 25% 5%; /* #080810 dark background */
+    --foreground: 0 0% 100%; /* white text */
+    
+    --card: 240 24% 8%; /* #0F0F17 darker card background */
+    --card-foreground: 0 0% 100%;
+    
+    --popover: 240 24% 8%;
+    --popover-foreground: 0 0% 100%;
+    
+    --primary: 260 86% 65%; /* #8B5CF6 purple */
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 240 25% 15%; /* #1E1E2F darker secondary bg */
+    --secondary-foreground: 0 0% 100%;
+    
+    --muted: 240 15% 25%;
+    --muted-foreground: 215 10% 75%;
+    
+    --accent: 326 81% 60%; /* #EC4899 pink */
+    --accent-foreground: 0 0% 100%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 240 15% 20%;
+    --input: 240 15% 20%;
+    --ring: 260 86% 65%; /* purple */
+    
+    --radius: 0.75rem;
+  }
+  
+  /* Ocean theme - Blue & Teal */
+  .theme-ocean {
+    --background: 220 25% 5%; /* Dark blue-ish background */
+    --foreground: 0 0% 100%; /* white text */
+    
+    --card: 220 24% 8%; /* Darker card background */
+    --card-foreground: 0 0% 100%;
+    
+    --popover: 220 24% 8%;
+    --popover-foreground: 0 0% 100%;
+    
+    --primary: 199 89% 48%; /* #0EA5E9 Sky blue */
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 220 25% 15%; /* Darker secondary bg */
+    --secondary-foreground: 0 0% 100%;
+    
+    --muted: 220 15% 25%;
+    --muted-foreground: 210 10% 75%;
+    
+    --accent: 172 66% 50%; /* #2DD4BF Teal */
+    --accent-foreground: 0 0% 100%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 220 15% 20%;
+    --input: 220 15% 20%;
+    --ring: 199 89% 48%; /* sky blue */
+    
+    --radius: 0.75rem;
+  }
+  
+  /* Midnight theme - Deep Blue & Green */
+  .theme-midnight {
+    --background: 232 32% 7%; /* #0B111E Very dark navy */
+    --foreground: 0 0% 100%; /* white text */
+    
+    --card: 232 30% 10%; /* #121A2B Darker card background */
+    --card-foreground: 0 0% 100%;
+    
+    --popover: 232 30% 10%;
+    --popover-foreground: 0 0% 100%;
+    
+    --primary: 250 95% 65%; /* #7C3AED Deep purple/indigo */
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 232 28% 15%; /* Darker secondary bg */
+    --secondary-foreground: 0 0% 100%;
+    
+    --muted: 232 20% 25%;
+    --muted-foreground: 232 10% 75%;
+    
+    --accent: 142 71% 45%; /* #10B981 Emerald green */
+    --accent-foreground: 0 0% 100%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 232 15% 20%;
+    --input: 232 15% 20%;
+    --ring: 250 95% 65%; /* Deep purple/indigo */
+    
+    --radius: 0.75rem;
+  }
+  
+  /* Set the default theme */
+  :root {
+    --background: 240 25% 5%; /* #080810 dark background */
+    --foreground: 0 0% 100%; /* white text */
+    --card: 240 24% 8%; /* #0F0F17 darker card background */
+    --card-foreground: 0 0% 100%;
+    --popover: 240 24% 8%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 260 86% 65%; /* #8B5CF6 purple */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 240 25% 15%; /* #1E1E2F darker secondary bg */
+    --secondary-foreground: 0 0% 100%;
+    --muted: 240 15% 25%;
+    --muted-foreground: 215 10% 75%;
+    --accent: 326 81% 60%; /* #EC4899 pink */
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 240 15% 20%;
+    --input: 240 15% 20%;
+    --ring: 260 86% 65%; /* purple */
+    --radius: 0.75rem;
+  }
+ 
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply antialiased bg-background text-foreground;
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+  code, pre {
+    font-family: 'Fira Code', monospace;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #080810;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #8B5CF6;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #EC4899;
+  }
+}
+
+@layer components {
+  /* Gradient text */
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent;
+  }
+
+  /* Gradient border */
+  .gradient-border {
+    @apply relative rounded-xl z-0;
+  }
+  .gradient-border::before {
+    content: "";
+    @apply absolute -top-[2px] -left-[2px] -right-[2px] -bottom-[2px] bg-gradient-to-br from-primary via-accent to-[#06B6D4] -z-10 rounded-[0.85rem] opacity-50 transition-opacity duration-300;
+  }
+  .gradient-border:hover::before {
+    @apply opacity-100;
+  }
+
+  /* Glow effect */
+  .glow {
+    @apply shadow-[0_0_20px_rgba(139,92,246,0.3)] transition-shadow duration-300;
+  }
+  .glow:hover {
+    @apply shadow-[0_0_25px_rgba(139,92,246,0.5)];
+  }
+
+  .section {
+    @apply min-h-screen scroll-mt-20;
+  }
+
+  .animated-bg {
+    @apply absolute top-0 left-0 w-full h-full overflow-hidden -z-10;
+  }
+
+  /* Timeline styling */
+  .timeline-item {
+    @apply relative pl-8 mb-8;
+  }
+  .timeline-item::before {
+    content: "";
+    @apply absolute left-0 top-0 w-0.5 h-full bg-gradient-to-b from-primary to-accent;
+  }
+  .timeline-dot {
+    @apply absolute -left-[5px] top-[6px] w-3 h-3 rounded-full bg-accent shadow-[0_0_10px_rgba(236,72,153,0.7)];
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes slideRight {
+  from { transform: translateX(-50px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(0) translateX(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
+  }
+  100% {
+    transform: translateY(-1000px) translateX(500px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.6s ease-out forwards;
+}
+
+.animate-slide-right {
+  animation: slideRight 0.6s ease-out forwards;
+}
+
+.animate-slide-in {
+  animation: slideIn 0.5s ease-out forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
