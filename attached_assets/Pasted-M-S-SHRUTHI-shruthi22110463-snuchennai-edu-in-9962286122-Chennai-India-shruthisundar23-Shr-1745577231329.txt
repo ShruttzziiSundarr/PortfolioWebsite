@@ -1,0 +1,86 @@
+M S SHRUTHI# shruthi22110463@snuchennai.edu.in  9962286122 + Chennai, India ð shruthisundar23 § ShruttzziiSundarr
+Objective
+Like trading stories, code is a currency of creativity—I’m a Computer Science student driven by the art of transforming logic into
+experiences that empower people. Every algorithm I design and every feature I ship carries my commitment to unlock hidden potential,
+streamline complexity, and circulate value. I aim to fuse my foundation in data structures, databases, and full-stack development with
+heartfelt curiosity to build features that feel alive, connect communities, and leave a lasting, positive imprint.
+Education
+B.Tech in Computer Science (IoT), Shiv Nadar University Chennai Aug 2026
+Chennai, Tamil Nadu
+Experience
+Vizset Analytics Jun 2024
+Intern
+• Designed and deployed interactive dashboards using Apache Superset, enhancing user engagement by 40% and enabling data-driven
+insights
+• Collaborated across teams to gather feedback and refine dashboard features
+• Developing an AI-driven HR tool that automated hiring processes, reducing time-to-hire by 50% and streamlining candidate evaluation
+within a single recruitment cycle
+Microsoft Learn Student Ambassador, Microsoft Apr 2025
+Technical Skills
+• Backend/API: Java, Node.js, Express
+• Frontend: JavaScript, React, Redux, Next.js, Vite
+• ML/Data: Python (scikit-learn, TensorFlow)
+• Database: PostgreSQL, MongoDB, MySQL, SQLAlchemy
+• Tools: Git, CI/CD (GitHub Actions)
+• Languages: Python, C, Embedded C, Java, Raspberry Pi
+• Frameworks: NumPy, Pandas, Matplotlib, Keras, PyTorch,
+TensorFlow, Scikit-learn
+• Web Dev: HTML, CSS, JavaScript, React
+• Viz: Apache Superset, MS Excel, Power BI
+• Soft Skills: Problem Solving, Strategic Thinking, Code Re-
+view
+Projects Projects Link
+1. Proplay: Sports Networking Platform Apr 2025
+– Spearheaded Proplay, a sports networking platform that
+connects athletes, coaches, and sponsors; implemented real-
+time performance dashboards, increasing user engagement
+by 40%; Currently working on AI-powered smart athlete
+matching.
+– Developing stages of implementing AI-enabled smart match-
+ing
+– Tech: React, TypeScript, Node.js, Supabase for authen-
+tication, and MongoDB data modeling
+2. ParkSense: Smart Parking System Nov 2024
+– Engineered an IoT-based smart parking system with fire
+alarm integration and ARIMA forecasting; reduced idle
+time by 45% and decreased wait times by 30%, boosting
+user satisfaction
+– Tech: Embedded C (Arduino), Python (ARIMA) for im-
+proved prediction
+3. E-Proctor Suite Nov 2023
+– Pioneered E-Proctor Suite using OpenCV, enhancing re-
+mote proctoring accuracy by 30% and reducing false pos-
+itives by 20%, ensuring secure assessments
+– Tech: Python, OpenCV, NumPy — includes facial recog-
+nition, activity logging, and reliability features
+4. SecureSpend Analysis Nov 2023
+– Built a machine learning-driven fraud detection system
+that cut false positives by 50% and improved transaction
+accuracy by 30% using real transaction data
+– Tech: Python with scikit-learn and TensorFlow, trained
+on anonymized transaction datasets
+5. Vehicle Detection System May 2023
+– Developed a multi-threaded vehicle detection system that
+reduced processing time by 30% and enabled real-time
+traffic analytics with concurrent video feed handling.
+– Tech: Python, OpenCV
+Award(s)
+Awarded the Reliance Foundation Undergraduate Scholarship for academic merit 2023
+Certifications
+• Postman API Fundamentals Student Expert Present
+• Google Data Analytics (Coursera) Present
+• Affective Computing Apr 2025
+• AWS Cloud Practitioner Apr 2024
+• IBM Design Thinking Practitioner Apr 2023
+Leadership & Extracurricular
+• Social Media & Marketing Head, Google Developers Group–SNUC
+• Volunteer, National Service Scheme (NSS)
+• Core Committee Member, Design Club Aura & Chess Club Checkmate
+• Logistics-General Administrator, SSN SNUC MUN ’22, ’23, ’24
+• Organizer, Invente Symposiums ’22–’24
+• PR & Content Writer, Designer for Instincts ’24, ’25
+• Participated in multiple Model United Nations as a Delegate
+see this is my resume
+
+i want something like that in the given image and should have links and slides and lots of icons and motion frames
+use the reference image
